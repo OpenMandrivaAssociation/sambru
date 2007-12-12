@@ -1,6 +1,6 @@
 %define name	sambru
 %define version	0.23
-%define release 2mdk
+%define release %mkrel 2
 
 Name: 	 	%{name}
 Summary: 	Transfers addressbook to/from Samsung phones.
