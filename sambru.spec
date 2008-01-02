@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://lager.dyndns.org/sambru/
 License:	GPL
 Group:		Communications
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Requires:	perl uucp
 
 %description
