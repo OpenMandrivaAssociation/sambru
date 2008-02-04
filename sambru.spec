@@ -3,7 +3,7 @@
 %define release %mkrel 2
 
 Name: 	 	%{name}
-Summary: 	Transfers addressbook to/from Samsung phones.
+Summary: 	Transfers addressbook to/from Samsung phones
 Version: 	%{version}
 Release: 	%{release}
 
