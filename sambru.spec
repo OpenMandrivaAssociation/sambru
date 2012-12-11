@@ -40,3 +40,34 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO Changelog
 %{_bindir}/%name
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.23-6mdv2010.0
++ Revision: 433601
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.23-5mdv2009.0
++ Revision: 260486
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.23-4mdv2009.0
++ Revision: 251883
+- rebuild
+- fix summary-ended-with-dot
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.23-2mdv2008.1
++ Revision: 126945
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import sambru
+
+
+* Fri Apr 2 2004 Austin Acton <austin@mandrake.org> 0.23-2mdk
+- stale rebuild
+
+* Sat Mar 29 2003 Austin Acton <aacton@yorku.ca> 0.23-1mdk
+- initial package
